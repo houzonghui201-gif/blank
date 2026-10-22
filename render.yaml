@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: personal-xray-ws
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
+    envVars:
+      - key: APP_SECRET
+        generateValue: true
+      - key: NODE_NAME
+        value: Personal-Xray

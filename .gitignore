@@ -1,0 +1,4 @@
+.env*
+verified-output/
+__pycache__/
+node_modules/
