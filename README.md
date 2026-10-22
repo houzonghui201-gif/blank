@@ -4,7 +4,7 @@ VLESS over WebSocket with TLS terminated by Render's HTTPS edge. A Node.js gatew
 
 ## Deployment
 
-- Docker web service, Free compute plan, Singapore.
+- Docker web service, Free compute plan, Oregon (United States).
 - Bind `PORT` (Render default: 10000).
 - Set `APP_SECRET` to a cryptographically random value of at least 32 bytes in Render environment variables. Never commit it.
 - `RENDER_EXTERNAL_HOSTNAME` supplies the public hostname. `PUBLIC_HOST` can override it.

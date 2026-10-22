@@ -3,7 +3,7 @@ services:
     name: personal-xray-ws
     runtime: docker
     plan: free
-    region: singapore
+    region: oregon
     dockerfilePath: ./Dockerfile
     healthCheckPath: /healthz
     envVars:
